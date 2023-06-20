@@ -1,0 +1,1307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    background-image: url('images/banner.jpg');
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    background-color: rgb(42, 39, 39);
+    color: white;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+list-style-type: none;
+padding: 25px 35px 25px 10px;
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.idea{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+    color: white;
+    
+}
+
+.work h4{
+    font-size: 85px;
+    width: 500px;
+    padding: 30px;
+    font-weight:700 ;
+}
+
+.para{
+    font-size: 17px;
+    width: 480px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.btn{
+    display: flex;
+}
+.btn1{
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    border: 0;
+
+}
+.btn2{
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 8px;
+    border: 0;
+}
+.btn1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.btn2:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.icon{
+    font-size: 21px;
+    margin-top: 22px;
+}
+
+.icons{
+    padding: 3px;
+}
+
+.icons:hover{
+    color: black;
+    transition: 0.25s ease-in-out;
+}
+
+.do{
+    text-align: center;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(51, 50, 50);
+}
+hr{
+    width: 80px;
+    margin: auto;
+    height: 10px;
+    background-color:  rgb(21, 21, 21);
+    margin-top: 10px;
+}
+
+.max{
+    max-width: 1200px;
+    display: flex;
+    /* justify-content: space-around; */
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    transition: width 300px height 300px 0.5s;
+
+}
+
+ .mini{
+    border: 1px solid rgb(143, 139, 139);
+    margin: 0px 10px 0px 10px;
+    padding: 30px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* box-shadow: 3px 3px 7px black; */
+    box-shadow: 2px 2px 5px rgb(83, 81, 81);
+} 
+
+.mini:hover{
+    background-color: rgb(250, 248, 248);
+}
+
+.img{
+    margin-top: 10px;
+}
+.head{
+    margin: 25px 0px 30px 0px;
+    font-size:25px;
+
+}
+.para1{
+    color: #222;
+    line-height: 25px;
+}
+
+.ton{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.chevron{
+    /* margin-left: 600px; */
+    display: flex;
+    justify-content: center;
+}
+.chevron i{
+    font-size: 25px;
+    margin: 0px 10px;
+    padding: 12px 25px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 5px rgb(83, 81, 81);
+}
+
+.chevron i:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.company{
+    background-image: url('images/about_bg.jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.comp-container{
+    /* position: absolute;
+    top: 90px;
+    left: 380px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; */
+    text-align: center;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.my-4{
+    background-color: white;
+    width: 90px;
+}
+
+.about{
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.para3{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.done{
+    font-size: 30px;
+    margin: 70px 0px 10px 0px;
+    color: rgb(51, 50, 50);
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 50px;
+}
+
+.my-1{
+    text-align: right;
+    margin: 0;
+    background-color:  rgb(21, 21, 21);
+    margin-bottom: 40px;
+    margin-left: 50px;
+
+}
+
+.port{
+    display: flex;
+    justify-content:space-around;
+    /* margin-bottom: 30px; */
+}
+
+.port3 img{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.port1 img{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 30px; 
+}
+
+.see{
+    text-align: center;
+    margin: 40px 0px 50px 0px;
+}
+
+.see button{
+    padding: 15px 45px;
+    border: none;
+    background-color:  rgb(21, 21, 21);
+    color: white;
+    font-size: 20px;
+
+}
+
+.see button:hover{
+    background-color:  rgb(74, 70, 70);
+    color: white;
+        transition: 0.5s ease-in-out;
+
+
+}
+
+.max1{
+    max-width: 1500px;
+    margin: auto;
+    background-color: #3a3434;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.project{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+.my-5{
+    background-color: white;
+    margin: 0;
+    height: 9px;
+    margin-top: 8px;
+    margin-left: 125px;
+
+}
+
+.us{
+    padding-top: 70px;
+    font-size: 30px;
+    margin-left: 125px;
+}
+
+.des{
+    font-size: 30px;
+    margin: 15px 0px 8px 0px;
+}
+
+.mond{
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.sol button{
+ padding: 15px 40px;
+ border: none;
+ font-size: 16px;
+}
+
+.sol button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.get-in{
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.get-touch{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.my-6 hr{
+    margin: 0;
+    width: 80px;
+    margin: 5px 0px 50px 0px;
+    }
+.my-7 hr{
+margin: 0;
+width: 80px;
+margin: 5px 0px 50px 0px;
+}
+
+.max2{
+    max-width: 400px;
+    margin: auto;
+    height: 300px;
+    text-align: center;
+    text-align: justify;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 30px;
+    box-shadow: 2px 2px 5px rgb(83, 81, 81);
+}
+
+.max2:hover{
+    background-color: rgb(250, 248, 248);
+
+}
+
+.head1{
+    font-size: 40px;
+}
+
+.input input{
+    padding: 30px 200px;
+    margin-bottom: 20px;
+    border: 1px solid #d7d2d2;
+    font-size: 20px;
+}
+
+/* 
+.input input::placeholder{
+    position: absolute;
+    top: 35px;
+    left: 70px;
+} */
+
+
+.input textarea{
+    border: 1px solid #d7d2d2;
+   font-size: 22px;
+   color: #3a3434;
+   position: relative;
+}
+/* 
+.input textarea::placeholder{
+    position: absolute;
+    top: 60px;
+    left: 70px; 
+} */
+
+.senda button{
+    padding: 25px 65px;
+    margin: 40px 0px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.senda button:hover{
+    transition: 0.3s ease-in;
+    color: white;
+    background-color: rgb(141, 134, 134);
+    border: 0;
+}
+
+.dan{
+    margin-top: 150px;
+}
+
+.dan1{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+
+.dan-img{
+    position: absolute;
+    top: 60px;
+    left: 400px;
+}
+
+.dan1-img{
+    position: absolute;
+  top: -65px;
+}
+
+.para5{
+    line-height: 27px;
+
+}
+
+.chevron2{
+    margin: 50px 0px 0px 130px;
+    font-size: 40px;
+    display: flex;
+    
+}
+
+.chevron2 i{
+    margin: 0px 10px;
+    padding: 12px 25px;
+    box-shadow: 2px 2px 5px rgb(83, 81, 81);
+}
+
+.chevron2 i:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.last-section{
+    background-color: #3a3434;
+    height: 640px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    position: relative;
+
+    
+}
+
+.footer2 input{
+    padding: 35px 200px;
+    border: 0;
+    border: none;
+    
+}
+
+.footer3 button{
+padding: 35px 50px;
+border: 0;
+background-color: black;
+color: white;
+border: none;
+position: absolute;
+right: 70px;
+top: 99px;
+}
+
+.footer3 button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-in;
+}
+
+.link1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 90px;
+}
+
+.link-us h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.link-us p{
+    margin-bottom: 15px;
+}
+
+.link-us i{
+    margin-right: 20px;
+}
+
+.temp{
+    background-color: rgb(14, 12, 12);
+    color: white;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.href{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.para7{
+    font-size: 18px;
+    color: grey;
+}
+.href1 a{
+    color: white;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.href1 i:hover{
+    color: yellow;
+    transition: 0.25s ease-in-out;
+  
+}
+
+
+@media(max-width: 1400px){
+    .company{
+        background-image: url('images/about_bg.jpg');
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* position: relative; */
+    }
+.footer3 button{
+  
+    position: absolute;
+    right: 94px;
+    top: 99px;
+    } 
+    
+
+}
+@media(max-width: 1389px){
+    .footer3 button{
+        position: absolute;
+        right: 90px;
+        top: 100px;
+        } 
+    
+    }
+    @media(max-width: 1385px){
+        .footer3 button{
+            position: absolute;
+            right: 85px;
+            top: 99px;
+            } 
+        
+        }
+        @media(max-width: 1376px){
+            .footer3 button{
+                position: absolute;
+                right: 78px;
+                top: 99px;
+                }
+            }
+            @media(max-width: 1359px){
+                .footer3 button{
+                    position: absolute;
+                    right: 70px;
+                    top: 99px;
+                    } 
+                }
+                @media(max-width: 1347px){
+                    .footer3 button{
+                        position: absolute;
+                        right: 65px;
+                        top: 99px;
+                        } 
+                    }
+                    @media(max-width: 1337px){
+                        .footer3 button{
+                            position: absolute;
+                            right: 60px;
+                            top: 99px;
+                            } 
+                        }
+
+
+  @media(max-width: 1328px){
+   .footer3 button{
+  position: absolute;
+right: 55px;
+ top: 99px;
+   } 
+     }
+     @media(max-width: 1319px){
+  .footer3 button{
+  position: absolute;
+ right: 50px;
+ top: 99px;
+  } 
+ }
+@media(max-width: 1308px){
+  .footer3 button{
+ position: absolute;
+ right: 45px;
+ top: 99px;
+   } 
+  }
+  @media(max-width: 1292px){
+ .footer3 button{
+ position: absolute;
+ right: 38px;
+ top: 99px;
+  } 
+                                           
+ }   
+@media(max-width: 1281px){
+ .footer3 button{
+position: absolute;
+ right: 30px;
+  top: 99px;
+  } 
+ }   
+                                            @media(max-width: 1268px){
+                                                .footer3 button{
+                                                    position: absolute;
+                                                    right: 25px;
+                                                    top: 99px;
+                                                    } 
+                                                }  
+                                                @media(max-width: 1254px){
+                                                    .footer3 button{
+                                                        position: absolute;
+                                                        right: 20px;
+                                                        top: 99px;
+                                                        } 
+                                                    } 
+                                                    @media(max-width: 1247px){
+                                                        .footer3 button{
+                                                            position: absolute;
+                                                            right: 15px;
+                                                            top: 99px;
+                                                            } 
+                                                        }   
+                                                        @media(max-width: 1236px){
+                                                            .footer3 button{
+                                                                position: absolute;
+                                                                right: 10px;
+                                                                top: 99px;
+                                                                } 
+                                                                .port{
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                .port1{
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                .port3{
+                                                                    margin-bottom: 40px;
+                                                                } 
+                                                                 .done{
+                                                                    margin-left: 180px;
+                                                                } 
+                                                                .my-1{
+                                                                    margin-left: 180px;
+                                                                }
+                                                             
+                                                            }  
+                                                            @media(max-width: 1225px){
+                                                                .footer3 button{
+                                                                    position: absolute;
+                                                                    right: 5px;
+                                                                    top: 99px;
+                                                                    } 
+                                                                }      
+                                                                @media(max-width: 1218px){
+                                                                    .footer3 button{
+                                                                        position: absolute;
+                                                                        right: 0px;
+                                                                        top: 99px;
+                                                                        } 
+                                                                    }  
+                                                                    @media(max-width: 1208px){
+                                                                        .footer2 input{
+                                                                           padding: 35px 199px;
+                                                                            } 
+                                                                            .footer3 button{
+                                                                                padding: 35px 49px;
+                                                                            }
+                                                                        }     
+                                                                        @media(max-width: 1196px){
+                                                                            .footer2 input{
+                                                                               padding: 35px 195px;
+                                                                                } 
+                                                                                .footer3 button{
+                                                                                    padding: 35px 45px;
+                                                                                }
+                                                                            }  
+                                                                            @media(max-width: 1176px){
+                                                                                .footer2 input{
+                                                                                   padding: 35px 189px;
+                                                                                    } 
+                                                                                    .footer3 button{
+                                                                                        padding: 35px 40px;
+                                                                                    }
+                                                                                }    
+                                                                                @media(max-width: 1148px){
+                                                                                     .footer2 input{
+                                                                                       padding: 32px 180px;
+                                                                                        } 
+                                                                                        .footer3 button{
+                                                                                            padding: 32px 44px;
+                                                                                        } 
+                                                                                        .footer{
+                                                                                            flex-wrap: wrap;
+                                                                                        }
+                                                                                        .senda button{
+                                                                                            padding: 25px 55px;
+                                                                                        }
+                                                                                    }  
+                                                                                    @media(max-width: 1137px){
+                                                                                        .footer2 input{
+                                                                                          padding: 32px 170px;
+                                                                                           } 
+                                                                                           .footer3 button{
+                                                                                               padding: 32px 39px;
+                                                                                           } 
+                                                                                           .footer{
+                                                                                               flex-wrap: wrap;
+                                                                                           }
+                                                                                           .senda button{
+                                                                                               padding: 25px 40px;
+                                                                                           }
+                                                                                       }  
+                                                                                       @media(max-width: 1128px){
+                                                                                        .ton{
+                                                                                            margin-left: 140px;
+                                                                                        }
+                                                                                        .input input{
+                                                                                            padding: 28px 170px;
+                                                                                        }
+                                                                                        .input textarea{
+                                                                                            
+                                                                                            max-width: 580px;
+                                                                                        }
+                                                                                        
+                                                                                       }  
+                                                                                       @media(max-width: 1137px){
+                                                                                        .footer2 input{
+                                                                                          padding: 32px 170px;
+                                                                                           } 
+                                                                                           .footer3 button{
+                                                                                               padding: 32px 35px;
+                                                                                           } 
+                                                                                           .footer{
+                                                                                               flex-wrap: wrap;
+                                                                                           }
+                                                                                           .senda button{
+                                                                                               padding: 22px 35px;
+                                                                                           }
+                                                                                           .input input{
+                                                                                            padding: 28px 150px;
+                                                                                        }
+                                                                                        .input textarea{
+                                                                                            
+                                                                                            max-width: 545px;
+                                                                                        }
+                                                                                       }  
+ @media(max-width: 1098px){
+.ton{
+margin-left: 130px;
+ }
+ }
+ @media(max-width: 1098px){
+    .ton{
+    margin-left: 130px;
+     }
+     }
+     @media(max-width: 1088px){
+        .senda button{
+            padding: 20px 31px;
+        }                                                                     
+     .footer2 input{
+        padding: 32px 160px;
+         } 
+         .footer3 button{
+             padding: 32px 35px;
+         } 
+        }
+        @media(max-width: 1068px){
+            .footer2 input{
+              padding: 29px 150px;
+               } 
+               .footer3 button{
+                   padding: 29px 35px;
+               } 
+               .footer{
+                   flex-wrap: wrap;
+               }
+               .senda button{
+                   padding: 20px 30px;
+               }
+               .input input{
+                padding: 28px 140px;
+            }
+            .input textarea{
+                
+                max-width: 523px;
+            }
+            .ton{
+                margin-left: 120px;
+            }
+           }  
+           @media(max-width: 1137px){
+            .footer2 input{
+              padding: 27px 140px;
+               } 
+               .footer3 button{
+                   padding: 27px 30px;
+               } 
+           } 
+           @media(max-width: 1038px){
+            .ton{
+            margin-left: 110px;
+             }
+             }
+             @media(max-width: 1008px){
+                .footer2 input{
+                  padding: 26px 130px;
+                   } 
+                   .footer3 button{
+                       padding: 26px 28px;
+                   } 
+                   .footer{
+                       flex-wrap: wrap;
+                   }
+                   .senda button{
+                       padding: 18px 28px;
+                   }
+                   .input input{
+                    padding: 28px 130px;
+                }
+                .input textarea{
+                    
+                    max-width: 500px;
+                }
+                .ton{
+                    margin-left: 100px;
+                     }
+                     .chevron2{
+                        font-size: 30px;
+                     }
+                     .chevron2 i{
+                        padding: 8px 18px;
+                     }
+               }    
+               @media(max-width: 984px){
+                .footer2 input{
+                  padding: 26px 120px;
+                   } 
+                   .footer3 button{
+                       padding: 26px 26px;
+                   } 
+                   .footer{
+                       flex-wrap: wrap;
+                   }
+                   .senda button{
+                       padding: 18px 25px;
+                   }
+                   .input input{
+                    padding: 28px 110px;
+                }
+                .input textarea{
+                    
+                    max-width: 460px;
+                }
+               }                                            
+               @media(max-width: 978px){
+                .ton{
+                    margin-left: 90px;
+                     }
+               }                                                                          
+               @media(max-width: 965px){
+                .us{
+                    margin-left: 300px;
+                }
+                .my-5{
+                    margin-left: 300px;
+                }
+               .project{
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+               }
+               .wrap1{
+                width: 50%;
+               }
+               .wrap2{
+                width: 50%;
+               }
+               .wrap3{
+                width: 50%;
+               }
+              
+               }               
+               @media(max-width: 966px){
+                .mini{
+                    width: 30%;
+                    margin-bottom: 50px;
+                   
+                }
+                .max{
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+
+                }
+               }
+
+               @media(max-width: 954px){
+                .footer2 input{
+                  padding: 26px 110px;
+                   } 
+                   .footer3 button{
+                       padding: 26px 24px;
+                   } 
+                   .footer{
+                       flex-wrap: wrap;
+                   }
+                   .senda button{
+                    font-size: 15px;
+                       padding: 16px 22px;
+                   }
+                   .input input{
+                    padding: 28px 90px;
+                }
+                .input textarea{
+                    
+                    max-width: 420px;
+                }
+               }   
+               @media(max-width: 984px){
+                .footer2 input{
+                  padding: 26px 100px;
+                   } 
+                   .footer3 button{
+                       padding: 26px 24px;
+                   } 
+                   .footer{
+                       flex-wrap: wrap;
+                   }
+                   .senda button{
+                       padding: 15px 22px;
+                   }
+                   .input input{
+                    padding: 28px 70px;
+                }
+                .input textarea{
+                    
+                    max-width: 380px;
+                }
+                .max2{
+                    max-width: 300px;
+                    height: 350px;
+                    font-size: 15px;
+                }
+                .dan-img{
+                    position: absolute;
+                    left: 300px;
+                }
+                .dan1{
+                    margin-left: 80px;
+                }
+               }    
+               @media(max-width: 910px){
+                .footer2 input{
+                  padding: 26px 110px;
+                  margin-right: 50px;
+                   } 
+                 
+                   }
+                  
+                     
+               @media(max-width: 873px){
+                .footer2 input{
+                  padding: 26px 90px;
+                   } 
+               }  
+               
+                       
+               @media(max-width: 866px){
+                 .back{
+                    display: flex;
+                    background-color: rgb(233, 19, 19);
+                } 
+                nav{
+                    display: block;
+                }
+                ul{
+                    display: block;
+                } 
+                .work h4{
+                    padding-top: 120px;
+                    font-size: 75px;
+                }
+                .para{
+                    font-size: 15px;
+                    width: 380px;
+                }
+               } 
+               @media(max-width: 841px){
+                .footer2 input{
+                  padding: 26px 70px;
+                   } 
+                   .head1{
+                    font-size: 25px;
+                   }
+                   .my-6 hr{
+                    width: 45px;
+                   }
+                   .my-7 hr{
+                    width: 45px;
+                   }
+                   /* .do{
+                    font-size: 25px;
+                   }
+                   hr{
+                    width: 40px;
+                   }
+                   .chevron2{
+                    font-size: 30px;
+                    margin-right: 130px;
+                 }
+                 .chevron2 i{
+                    padding: 8px 18px;
+                 } */
+               }  
+               @media(max-width: 830px){
+                .footer2 input{
+                  padding: 26px 70px;
+                   } 
+                   .head1{
+                    font-size: 20px;
+                   }
+                   .my-6 hr{
+                    width: 40px;
+                   }
+                   .my-7 hr{
+                    width: 50px;
+                   }
+                   .do{
+                    font-size: 20px;
+                   }
+                   hr{
+                    width: 40px;
+                   }
+                   .chevron2{
+                    font-size: 30px;
+                    margin-right: 130px;
+                 }
+                 .chevron2 i{
+                    padding: 8px 18px;
+                 }
+               }      
+               @media(max-width: 795px){
+                .footer2 input{
+                  padding: 23px 60px;
+                   } 
+                   .footer3 button{
+                    padding: 23px 24px;
+                    position: absolute;
+                    top: 104px;
+                } 
+               
+                .senda button{
+                    padding: 12px 18px;
+                }
+               }   
+
+               @media(max-width: 840px){
+                .port{
+                    flex-wrap: wrap;
+                }
+                .port3{
+                    width: 50%;
+                }
+                .port1{
+                    width: 50%;
+                }
+               }
+               /* @media(max-width: 800px){
+                .footer2 input{
+                  padding: 26px 100px;
+                   } 
+                   .footer3 button{
+                       padding: 26px 24px;
+                   } 
+                   .footer{
+                       flex-wrap: wrap;
+                   }
+                   .input{
+                   }
+                   .senda button{
+                       padding: 15px 22px;
+                   }
+                   .input input{
+                    padding: 28px 70px;
+                }
+                .input textarea{
+                    
+                    max-width: 380px;
+                }
+                .max2{
+                    max-width: 250px;
+                    height: 380px;
+                    font-size: 15px;
+                }
+                .dan-img{
+                    position: absolute;
+                    left: 300px;
+                }
+                .dan1{
+                    margin-left: 80px;
+                }
+                .chevron2{
+                    margin-bottom: 80px;
+                }
+               }                             */
+            @media(max-width: 280px){
+                .back{
+                    background-image: url('images/banner.jpg');
+                    height: 700px;
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                }
+               nav{
+                display: flex;
+                flex-direction: column;
+               }
+               ul{
+                display: flex;
+               }
+               li{
+                padding:5px;
+                font-size: 12px;
+               }
+               .work h4{
+                font-size: 25px;
+                /* width: 500px; */
+                /* padding: 30px; */
+                font-weight:700 ;
+            }
+            .idea{
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 0px;
+                color: white;
+                
+            }
+            .para{
+                font-size: 13px;
+                width: 100%;
+            }
+            .btn{
+                display: flex;
+            }
+            .btn1{
+                padding: 10px 25px;
+                text-align: center;
+                font-size: 12px;
+                border: 0;
+            
+            }
+            .btn2{
+                padding: 10px 30px;
+                text-align: center;
+                font-size: 12px;
+                margin-left: 8px;
+                border: 0;
+            }
+            
+            .icon{
+                font-size: 15px;
+                margin-top: 22px;
+                text-align: center;
+            }
+
+            .icons{
+                padding: 3px;
+            }
+            .do{
+                font-size: 20px;  
+            }
+            hr{
+                width: 80px;
+            }
+            .max{
+                width: 100%;
+                display: flex;
+               flex-wrap: wrap;
+               justify-content: center            }
+            .mini{
+                width:100% ;
+            }
+            .company{
+                background-image: url('images/about_bg.jpg');
+                height: 600px;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                /* position: relative; */
+            }
+            .my-4{
+                background-color: white;
+                width: 70px;
+            }
+            
+            .about{
+                font-size: 25px;
+                margin-bottom: 15px;
+            
+            }
+            
+            .para3{
+                font-size: 12px;
+                margin-top: 10px;
+                line-height: 30px;
+                width: 100%;
+
+            }
+            .done{
+                font-size: 15px;
+                margin: 70px 0px 10px 0px;
+                color: rgb(51, 50, 50);
+               font-family: Arial, Helvetica, sans-serif;
+               margin-left: 0px;
+            }
+            .my-1{
+                margin: 0;
+                background-color:  rgb(21, 21, 21);
+                margin-bottom: 40px;
+                margin-left: 0px;
+            
+            }
+            /* .port{
+                justify-content:center;
+                flex-wrap: wrap;  
+            }
+            .port1{
+                width: 50%;
+            }
+            .port3{
+                width: 50%;
+            } */
+            .head1{
+                font-size: 25px;
+            }
+            .get-touch{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .diva{
+                width: 100%;
+            }
+            .divas{
+                width: 100%;
+            }
+            
+        .input input{
+            padding: 10px 80px;
+            margin-bottom: 20px;
+            border: 1px solid #d7d2d2;
+            font-size: 20px;
+        }
+        .max1{
+            width: 100%;
+            margin: 0;
+        }
+        .us{
+            font-size: 20px;
+            margin-left: 0px;
+        }
+        .my-5{
+            margin-left: 0;
+        }
+            }
