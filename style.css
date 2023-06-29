@@ -44,7 +44,7 @@ font-family: Arial, Helvetica, sans-serif;
 .work h4{
     font-size: 85px;
     width: 500px;
-    padding: 30px;
+    padding: 30px 0px 0px 0px;
     font-weight:700 ;
 }
 
@@ -561,7 +561,7 @@ top: 99px; */
     /* width: 100%; */
 }
         .port3 img{
-            width: 400px;
+            width: 100%;
             height: 250px;
         }
         .ton{
@@ -785,6 +785,15 @@ font-size: 12px;
     width: 300px;
   
 }
+    }
+    @media(max-width: 830px){
+        .back{
+            background-image: url('images/banner.jpg');
+            height: 700px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            width: 100%;
+        }    
     }
 
     @media(max-width: 764px){
@@ -1012,29 +1021,29 @@ font-size: 12px;
                 }
             }
             @media(max-width: 580px){
-             .back{
-                display: flex;
-             }
-             nav{
+             /* .back{
+                flex-wrap: wrap;
+             } */
+             /* nav{
                 display: block;
 
-             }
+             } */
              .para3{
                 font-size: 16px;
                 width: 100%;
             }
-            ul{
+            /* ul{
                 display: block;
-            }
+            } */
             .idea{
-                margin-left: 30px;
+                margin-left: 130px;
             }
             .work h4{
                 font-size: 35px;
                 width: 300px;
-                padding: 30px;
+                padding: 30px 0px 0px 0px;
                 font-weight:800 ;
-                margin-top: 100px;
+                margin-top: 50px;
             }
             
             .para{
@@ -1056,6 +1065,11 @@ font-size: 12px;
                 margin-left: 8px;
             }
             }
+            @media(max-width: 543px){
+             nav{
+                flex-wrap: wrap;
+             } 
+            }
             @media(max-width: 514px){
                 .ton{
                     margin-left: 30px;
@@ -1066,7 +1080,7 @@ font-size: 12px;
             }
             @media(max-width: 504px){
                 .idea{
-                    margin-left: 0px;
+                    margin-left: 130px;
                 }
             }
             @media(max-width: 509px){
@@ -1096,29 +1110,29 @@ font-size: 12px;
                 .ton{
                     margin-left: 40px;
                 }  
-                .back{
+                /* .back{
                     display: flex;
                  }
                  nav{
                     display: block;
     
-                 }
+                 } */
                  .para3{
                     font-size: 16px;
                     width: 100%;
                 }
-                ul{
+                /* ul{
                     display: block;
-                }
+                } */
                 .idea{
-                    margin-left: 15px;
+                    margin-left: 130px;
                 }
                 .work h4{
                     font-size: 25px;
                     width: 200px;
-                    padding: 30px;
+                    padding: 30px 0px 0px 0px;
                     font-weight:800 ;
-                    margin-top: 100px;
+                    margin-top: 30px;
                 }
                 
                 .para{
@@ -1154,29 +1168,29 @@ font-size: 12px;
                 .ton{
                     margin-left: 40px;
                 }  
-                .back{
+                /* .back{
                     display: flex;
-                 }
-                 nav{
+                 } */
+                 /* nav{
                     display: block;
     
-                 }
+                 } */
                  .para3 p{
                     font-size: 12px;
                     width: 100%;
                 }
-                ul{
+                /* ul{
                     display: block;
-                }
+                } */
                 .idea{
-                    margin-left: 15px;
+                    margin-left: 100px;
                 }
                 .work h4{
                     font-size: 20px;
                     width: 150px;
-                    padding: 30px;
+                    padding: 30px 0px 0px 0px;
                     font-weight:800 ;
-                    margin-top: 100px;
+                    margin-top: 30px;
                 }
                 
                 .para{
@@ -1210,12 +1224,17 @@ font-size: 12px;
                     font-size: 13px;
                 }
             }
+            @media(max-width: 400px){
+                .idea{
+                    margin-left: 80px;
+                }
+            }
             @media(max-width: 373px){
                 .ton{
                  margin-left: 30px;   
                 }
                 .btn2{
-                    padding: 10px 20px;
+                    padding: 10px 28px;
                     text-align: center;
                     font-size: 10px;
                     margin-left: 8px;
@@ -1248,23 +1267,31 @@ font-size: 12px;
                     margin-right: 5px;
                 }
             }
+            @media(max-width: 349px){
+                li{
+                    list-style-type: none;
+                    padding: 10px 5px 10px 5px;
+                    font-size: 15px;
+                    }
+            }
             @media(max-width: 348px){
                 .work h4{
                     font-size: 18px;
                     width: 120px;
                     /* padding: 30px; */
                     font-weight:800 ;
-                    margin-top: 100px;
+                    margin-top: 20px;
                 }
               .para{
                     font-size: 12px;
-                    width: 150px;
+                    width: 200px;
+                    margin-bottom: 10px;
                   
                 } 
                
-                .btn{
+                /* .btn{
                     display: block;
-                }     
+                }      */
                    .btn1{
                     padding: 10px 10px;
                     text-align: center;
@@ -1327,9 +1354,23 @@ line-height: 20px;
     font-size: 10px;
     padding: 20px 10px;
 }
+li{
+    list-style-type: none;
+    padding: 10px 5px 10px 5px;
+    font-size: 12px;
+    }
+    /* .port1{
+        width: 150%;
+    } */
+    .port3 img{
+        width: 100%;
+        height: 250px;
+    }
             }
 @media(max-width: 341px){
-     
+    .idea{
+        margin-left: 60px;
+    }
 
     .para7{
         font-size: 7px;
@@ -1364,7 +1405,11 @@ line-height: 20px;
 .us{
     margin-left: 0px;
 }
-
+@media(max-width: 293px){
+    .idea{
+        margin-left: 40px;
+    }
+}
  
 }
 @media(max-width: 280px){
@@ -1413,12 +1458,17 @@ line-height: 20px;
         width: 120px;
         /* padding: 30px; */
         font-weight:800 ;
-        margin-top: 100px;
+        margin-top: 20px;
     }
   .para{
         font-size: 12px;
-        width: 120px;
+        width: 170px;
       
     } 
 
+li{
+    list-style-type: none;
+    padding: 10px 5px 10px 5px;
+    font-size: 10px;
+    }
 }
